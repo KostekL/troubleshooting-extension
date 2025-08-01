@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "title": "Troubleshooting Flow",
   "description": "An interactive troubleshooter with a built-in editor for my team.",
-  "icon": "assets/icon.png",
+  "icon": "icon.png",
   "author": "constant_lescop",
   "license": "MIT",
   "commands": [
