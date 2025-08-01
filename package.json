@@ -1,0 +1,37 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "troubleshooting-extension",
+  "version": "1.0.0",
+  "title": "Troubleshooting Flow",
+  "description": "An interactive troubleshooter with a built-in editor for my team.",
+  "icon": "assets/icon.png",
+  "author": "constant_lescop",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "Run Troubleshooter",
+      "description": "Start the interactive troubleshooting flow.",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.78.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.6",
+    "@types/node": "18.8.3",
+    "@types/react": "18.0.9",
+    "eslint": "^8.57.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "ray publish"
+  }
+}
